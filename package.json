@@ -1,0 +1,36 @@
+{
+  "name": "gonzalojava",
+  "version": "0.1.0",
+  "description": "Comprte tu Perfil",
+  "main": "server.js",
+  "keywords": [
+    "Dashigram",
+    "javascript"
+  ],
+  "author": "Dash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0",
+    "page": "^1.11.4",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelfy": "^1.1.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  },
+  "script": {
+    "build": "gulp",
+    "start": "gulp watch"
+  }
+}
